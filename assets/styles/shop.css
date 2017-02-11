@@ -1,0 +1,18 @@
+body header a {
+  text-decoration: none;
+  color: #444; }
+  body header a span {
+    font-size: 28px;
+    font-weight: bold; }
+body .wrapper {
+  position: relative;
+  height: auto;
+  width: 100%;
+  margin: auto; }
+  body .wrapper a {
+    text-decoration: none; }
+    body .wrapper a img {
+      height: auto;
+      width: 100%; }
+
+/*# sourceMappingURL=shop.css.map */
