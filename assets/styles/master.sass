@@ -1,0 +1,83 @@
+// importing bourbon
+@import "bourbon/bourbon"
+// initial resest
+*
+  margin: auto
+  padding: 0
+
+.still
+  position: relative
+  left: 98px
+  transition: left cubic-bezier(0.24, -0.23, 0.85, 1.29) 1s
+.move
+  left: 0px
+  transition: left cubic-bezier(0.24, -0.23, 0.85, 1.29) 1s
+
+body
+  // font-family: 'Quicksand', sans-serif
+  font-family: 'Josefin Slab', serif
+  header
+    // background: tint(crimson, 45%)
+    background: rgba(236, 227, 229, 0.49)
+    padding: 40px 20px
+    color: #191919
+    text-align: center
+    position: relative
+    span
+      position: absolute
+      left: 20px
+      top: 40px
+      cursor: pointer
+      div
+        background: #444
+        @include size(22px 2px)
+        display: block
+        margin: 2px auto
+    h1
+      font-weight: normal
+      // letter-spacing: 10px
+  .wrapper
+    // border: 1px solid #333
+    margin: 5px
+    text-align: center
+    article
+      @include size(200px)
+      // background: shade(dodgerblue, 40%)
+      margin: auto
+      // padding: 5px
+      display: inline-block
+      position: relative
+      border-radius: 100%
+      overflow: hidden
+      img
+        @include size(200px)
+        border-radius: 100%
+      h3
+        background: rgba(11, 19, 19, 0.41)
+        text-align: center
+        padding: 20px
+        color: whitesmoke
+        position: absolute
+        left: 0
+        right: 0
+        bottom: 0
+  .f-list
+    position: absolute
+    top: 0
+    left: -98px
+    // @include size(240px 100vh)
+    // margin: auto
+    // border: 1px solid #333
+    background: rgba(0,0,0,0.4)
+    .list
+      list-style-type: none
+      // text-align: center
+      li
+        display: block
+        margin: 5px
+        padding: 5px
+        a
+          text-decoration: none
+          img
+            @include size(50px)
+            border-radius: 50%
