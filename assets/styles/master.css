@@ -5,6 +5,7 @@
 .still {
   position: relative;
   left: 98px;
+<<<<<<< HEAD
   transition: left cubic-bezier(0.24, -0.23, 0.85, 1.29) 0.5s;
   overflow-x: hidden; }
 
@@ -12,6 +13,13 @@
   left: 0px;
   transition: left cubic-bezier(0.24, -0.23, 0.85, 1.29) 0.5s;
   overflow-x: hidden; }
+=======
+  transition: left cubic-bezier(0.24, -0.23, 0.85, 1.29) 1s; }
+
+.move {
+  left: 0px;
+  transition: left cubic-bezier(0.24, -0.23, 0.85, 1.29) 1s; }
+>>>>>>> 6602dde2650d11e6c853530c17a5339690222a46
 
 body {
   font-family: "Josefin Slab", serif; }
@@ -45,12 +53,19 @@ body {
       position: relative;
       border-radius: 100%;
       overflow: hidden; }
+<<<<<<< HEAD
       body .wrapper article a {
         text-decoration: none; }
         body .wrapper article a img {
           height: 200px;
           width: 200px;
           border-radius: 100%; }
+=======
+      body .wrapper article img {
+        height: 200px;
+        width: 200px;
+        border-radius: 100%; }
+>>>>>>> 6602dde2650d11e6c853530c17a5339690222a46
       body .wrapper article h3 {
         background: rgba(11, 19, 19, 0.41);
         text-align: center;
